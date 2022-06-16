@@ -1,1 +1,15 @@
 Cars
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL- AUTOINCREMENT - UNIQUE
+brand - VARCHAR(15) - NOTNULL
+model - VARCHAR(20) - NOTNULL
+year - YEAR - UNSIGNED - NULL
+kilometres - DECIMAL(6, 0 )- UNSIGNED - - NOTNULL
+car_service - DECIMAL(2, 0)-  UNSIGNED - - NULL
+motor - VARCHAR(10) - NULL
+production_country - VARCHAR(2) - NULL
+length_mt - DECIMAL(3, 2) - NULL
+width_mt - DECIMAL(3, 2) - NULL
+weight_kg - DECIMAL(3, 2) - NULL
+power_supply - VARCHAR(8) - NOTNULL
+owners - SMALLINT - UNSIGNED - NOTNULL - DEFAULT(1)
